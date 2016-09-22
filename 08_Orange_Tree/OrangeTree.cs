@@ -12,9 +12,13 @@ namespace _08_Orange_Tree
         private int orangesEaten;
 
         public int Age { get{ return age; } set{ age = value; } }
+
         public int Height {get { return height; } set{ height = value; } }
+
         public bool TreeAlive { get{ return treeAlive; } set{ treeAlive = value; } }
+
         public int NumOranges { get{ return numOranges; } set{ numOranges = value; } }
+
         public int OrangesEaten { get{ return orangesEaten; } set{ orangesEaten = value; } }
 
         public OrangeTree(int v1, int v2){
