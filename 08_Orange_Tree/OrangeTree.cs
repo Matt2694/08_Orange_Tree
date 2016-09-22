@@ -72,18 +72,18 @@ namespace _08_Orange_Tree
             if(Age == 80){
                 TreeAlive = false;
             }
-            if (Age > 2){
+            if (Age > 1){
                 NumOranges += 5;
             }
-            else{
-                if (Age > 0 && flip){
-                    NumOranges += 5;
-                    flip = false;
-                }
-                else{
-                    flip = true;
-                }
-            }
+            //else{
+            //    if (Age > 0 && flip){
+            //        NumOranges += 5;
+            //        flip = false;
+            //    }
+            //    else{
+            //        flip = true;
+            //    }
+            //}
         }
 
         public void EatOrange(int v){
