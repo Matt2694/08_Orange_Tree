@@ -13,7 +13,7 @@ namespace _08_Orange_Tree
 
         public int Age { get{ return age; } set{ age = value; } }
 
-        public int Height {get { return height; } set{ height = value; } }
+        public int Height { get{ return height; } set{ height = value; } }
 
         public bool TreeAlive { get{ return treeAlive; } set{ treeAlive = value; } }
 
@@ -37,12 +37,15 @@ namespace _08_Orange_Tree
             if (Age > 1){
                 NumOranges += 5;
             }
-            //else{
-            //    if (Age > 0 && flip){
+            //else
+            //{
+            //    if (Age > 0 && flip)
+            //    {
             //        NumOranges += 5;
             //        flip = false;
             //    }
-            //    else{
+            //    else
+            //    {
             //        flip = true;
             //    }
             //}
