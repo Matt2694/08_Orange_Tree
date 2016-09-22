@@ -8,7 +8,7 @@ namespace _08_Orange_Tree
         private int height;
         private bool treeAlive = true;
         private int numOranges;
-        private bool flip = false;
+        //private bool flip = false;
         private int orangesEaten;
 
         public int Age{
